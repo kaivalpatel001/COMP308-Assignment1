@@ -1,0 +1,23 @@
+<% include ./partials/header.ejs %>
+<link rel="stylesheet" href="/Assets/layout.css" > <!--link for CSS-->
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-4">Welcome to <%= title %></h1>
+        <% if (title == "Home") { %>
+        <p id="mission">
+          Mission Statement : My personal mission is to always live with integrity, positivity  and strive to use everyday and every experience as an opportunity for improvement and growth. I intend to apply this to my life personally and professionally. 
+
+          I intend to accomplish these goals by emphatically listening to every person I encounter and using their knowledge to grow as a person. Another way I intend to do this by treating every experience, good or bad, as a learning experience. I intend to approach each endeavor with the same tenacity and dedication regardless of the breadth of my experience or success.
+        
+          <br>
+          <br>
+          <a class="btn btn-primary" href="/about" role="button">About Me</a>
+        </p>
+          
+
+          <% } %>
+      </div>
+    </div>
+
+<% include ./partials/footer.ejs %>

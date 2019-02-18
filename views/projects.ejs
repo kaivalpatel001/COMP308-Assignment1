@@ -1,0 +1,39 @@
+<% include ./partials/header.ejs %>
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-4"> <%= title %></h1>
+        <% if (title == "Projects") { %>
+       <% } %>
+       <br>
+       
+      </div>
+    </div>
+    <!--used class="col-sm-1 sidenav" to give specific space for every division-->
+    <div class="row content">
+      <div class="col-sm-1 sidenav">
+        </div>
+        <div class="col-sm-4 sidenav">
+          <img src="/Assets/images/transport.png"  height="300px" width="400px" >
+        </div>
+        <div class="col-sm-6 text-left">
+          <p> 
+              In this project we tried to simplify Transportation services in India. Basic idea of this project was to develop an Android Application which contains all details of transport companies in different areas of city along with the feature of booking a service and contact with the transporter. Application was developed for two type of users, one who wants to book transport service to move their goods and the other are the transport companies. Customers can check different transport companies along with their price structure and details about the company and can book transport according to their need by contacting the company through our application. Apart from that transport companies can upload all their details in the app and can contact the customer through the application.
+          </p>
+</div>
+        </div>
+
+        <div class="row content">
+            <div class="col-sm-1 sidenav">
+              </div>
+              <div class="col-sm-4 sidenav">
+                <img src="/Assets/images/parking.png"  height="300px" width="400px" >
+              </div>
+              <div class="col-sm-6 text-left">
+                <p> 
+                    in this project we have developed a website which is called easy parking. In this website we tried to make parking service of centennial college online. Main feature of the website was that students, employees and visitors can pre-book a parking slot in college from their account in the website. Also, they can cancel and extend parking time. Admin can add and remove different parking slots according to availability. Also, all registered members can save their payment details in the website so that they can book parking slots much faster.                </p>
+      </div>
+              </div>
+
+    </div>
+<% include ./partials/footer.ejs %>

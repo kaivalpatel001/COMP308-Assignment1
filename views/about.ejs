@@ -1,0 +1,27 @@
+<% include ./partials/header.ejs %>
+<link rel="stylesheet" href="/Assets/layout.css" > <!--link for CSS-->
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-4"> <%= title %></h1>
+        <% if (title == "about") { %>
+          <a class="btn btn-primary" href="about.ejs" role="button">Contact List</a>
+        <% } %>
+        
+
+      </div>
+      
+<br>
+  <div>
+    <div>
+      
+
+<!--displayed photo with objective-->
+      <p id="objective">
+       <img id="my" src="/Assets/images/my.jpg" height="190px" width="240px"  align="left" > My name is Kaivalkumar Patel. I have deep knowledge of various languages and understanding languages and diagnostic skills. I have strong background in computer language and C, C++, Java and ASP.net and C#.
+        I have strong aptitude for learning new technologies in this field to make my organisation better. My all work experience both related and non-related, I gain dual knowledge of hardware as well as software and can improve job performance and promote personal growth. The foundation of my success is my talent and passion for Leadership.  
+      </p> 
+      <br>
+      <a class="btn btn-primary" href="https://drive.google.com/open?id=19AzUr8rr5upKCzGIOGS7pdyJ1PWWJk2B" target="_blank" role="button">Resume</a>
+    </div>
+  </div>
+<% include ./partials/footer.ejs %>

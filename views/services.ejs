@@ -1,0 +1,27 @@
+<% include ./partials/header.ejs %>
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-4">Welcome to <%= title %></h1>
+        <% if (title == "Contact") { %>
+          <a class="btn btn-primary" href="/contact-list" role="button">Contact List</a>
+        <% } %>
+      </div>
+      <br>
+<p >
+    <img src="/Assets/images/java.jpg" align="left" height="300px" width="300px" >
+</p>
+<p>
+    <img src="/Assets/images/C.jpg"  align="center" height="300px" width="300px">
+
+        <img src="/Assets/images/android.jpg" align="right" height="300px" width="300px" >
+    </p>
+    <p>
+        <img src="/Assets/images/aws.jpg"  align="center" height="300px" width="300px">
+    </p>
+
+
+    </div>
+ 
+
+<% include ./partials/footer.ejs %>
